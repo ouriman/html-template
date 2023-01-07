@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.banner{
+    background-image: url(innerbanner.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 33, 48);
+    text-align: center;
+}
+
+.banner_content{
+    padding-top: 150px;
+    color: white;
+}
+
+.banner-button{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: aquamarine;
+    background-color: transparent;
+}
+
+.banner-button:hover{
+    background-color: rgb(104, 7, 164);
+    color: azure;
+}
+
+.donation{
+    text-align: center;
+    margin-top: 20px;
+}  
+
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.amount{
+    background-color: rgb(210, 253, 240);
+    padding: 20px;
+    margin-right: 10px;
+    color:rgb(0, 191, 255);
+    border: 2px #8b4cf7 solid;  
+    cursor: pointer;
+} 
+
+.active{
+    background-color: antiquewhite;
+    font: white;
+}
+
+#input-amount{
+    margin-top: 30px;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-bottom:1px #8b4cf7 solid;
+}
+
+.donate-amount-text{
+    margin-bottom: 20px;
+}
+
+.donation-plan{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.flex-container{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan{
+    border: 2px #8b4cf7 solid;
+    margin: 15px;
+    padding: 15px;
+    height: 200px;
+}
+
+footer{
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(42, 40, 40);
+    color: white;
+    text-align: center;
+}
+
+.gallery{
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 5%;
+ }
+
+.gallery-row{
+    display: flex;
+}
+
+.gallery-row img {
+    width: 23%;
+    padding: 5px;
+    margin: 5px;
+}
